@@ -1,0 +1,7 @@
+name: ItinerantMerchant
+version: '${project.version}'
+main: net.optimusmac.Merchant
+api-version: 1.16
+authors: [ OptimusMac ]
+description: Mechant
+

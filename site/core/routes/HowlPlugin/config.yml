@@ -1,0 +1,111 @@
+Launcher-hash: 6aecee86a1bc9e9cfc349a6ea11d11f0
+Mods-hash: 27faf885f8bad876a4e401b330756269
+Others-hash: 35e21394b1741f2781721d7f236ef853
+Shutdown-PC: false
+Valid-List: noppes.npcs.events.WorldRenderListener;noppes.npcs.events.EntityKilledEvent;atheria.fewizz.trade.Trade;net.techbrew.journeymap.forgehandler.WaypointBeaconHandler;noppes.npcs.events.HealthEvent;DamageIndicatorsMod.core.DIEventBus;ru.zonix.trade.Main;cubex2.cs2.handler.event.IngameOverlayHandler;net.techbrew.journeymap.forgehandler.MiniMapOverlayHandler;noppes.npcs.NewFunction.enchantments.listeners.EnchantmentListener;cpw.mods.ironchest.OcelotsSitOnChestsHandler;com.lithial.me.handlers.LivingHandler;com.lithial.me.handlers.ArrowHandler;bspkrs.statuseffecthud.fml.SEHRenderTicker;net.minecraft.alluwant.client.KeyHandler;noppes.npcs.ClientKeyHandler;cpw.mods.fml.common.modloader.BaseModTicker;com.lithial.me.handlers.utils.KeyBind;noppes.npcs.ClientTickHandler;bspkrs.armorstatushud.fml.ASHGameTicker;DamageIndicatorsMod.core.KeyBindingReposition;atheria.fewizz.trade.Trade$2;bspkrs.statuseffecthud.fml.SEHGameTicker;cpw.mods.fml.common.modloader.BaseModTicker;net.techbrew.journeymap.forgehandler.KeyEventHandler;noppes.npcs.me.Kepa2012.Updater;noppes.npcs.ClientTickHandler;bspkrs.bspkrscore.fml.BSCTicker;net.techbrew.journeymap.forgehandler.StateTickHandler;nodelay.NoDelay$1;bspkrs.armorstatushud.fml.ASHRenderTicker;ru.cazmusw.casino.Main$2;wecui.GameTickHandler;DamageIndicatorsMod.core.DITicker;com.mumfrey.liteloader.core.hooks.HookProfiler;net.minecraftforge.event.EventBus;net.minecraft.client.renderer.EntityRenderer
+Profiler: com.mumfrey.liteloader.core.hooks.HookProfiler
+Event-Bus: net.minecraftforge.event.EventBus
+Entity-Renderer: net.minecraft.client.renderer.EntityRenderer
+ban: true
+bancommands:
+- /hwids ban %s
+- /ban %s cheats
+detected:
+- ru.tsunami
+- ehacks.mod.wrapper.Events
+- forgefuck.team.xenobyte
+- s7w1e4ZpWYeMNrCI.LYtGtCk6nZvSAFMR.XGmcssvZDG3uIIil
+- ru.tsnest.tsunami.Main
+- ru.yammi.n
+- '{H2ck}_MHE_HOPM_{Eng1ne}.TbI_COCKA_h'
+- ru.leforce.Main
+- ru.yammi.bP
+- org.objectweb.Main
+- P31twxcxwbj8v996.VMJn4onveLl7o2mo.F4Q3dmcOXk5C5YGx
+- M5OViLUJLiKOc8hp.uuRv6lkeAuDUNxNL.ZT5ozxlCAWoNX4
+- hhYo3VZcemRTrw2A.NhQ7DlxXYKPYmfGe.iJdo6VWDFdSwxY
+- VKgL2Ku3eLPlEKnW.pv17MC1QZ7iezPso.ts9wnjfIH0kZ3tsd
+- VKgL2Ku3eLPlEKnW.pv17MC1QZ7iezPso.ts9wnjfIH0kZ3tsd
+- rdbHkv5nhvOR6IEH.BKLjq326IGotefV.jzD4jTVn9V8WTXfd
+- ANt17uwqPbVTdVSf.gJhmVtDvDpxi2V6.ae29G292WYs5YSJ6
+- forgefuck.team.xenobyte.handlers.EventHandler
+- Uy9rT5hShoSX2Gj.cfL92tTwT9V3U0ze.GR0QTBm8BrPnVqFa
+- qyd4nhSIivCnhREG.SmoqB99ukSwLoGOQ.toNBQ6YPMXSOihE
+- Uy9rT5hShoSX2Gj.uVtgv9KTCuNNdKF.oocXX7YBmx0vX7DS
+- qyd4nhSIivCnhREG.FWB3S5imZO6YxzBc.IifZabyk01NEpGDV
+- BDNkq6u7y96Yx7sh.v0lbiLtm28IYeFj.wOr4mTAqpZAgHbYA
+- P31twxcxwbj8v996.VMJn4onveLl7o2mo.F4Q3dmcOXk5C5YGx
+- ru.tsunami
+- ehacks.mod.wrapper.Events
+- forgefuck.team.xenobyte
+- hzrphuyyhs.qklbgl.Rnhycjd
+- s7w1e4ZpWYeMNrCI.LYtGtCk6nZvSAFMR.XGmcssvZDG3uIIil
+- ru.tsnest.tsunami.Main
+- ru.yammi.n
+- ru.leforce.Main
+- ru.yammi.bP
+- org.objectweb.Main
+- dl8r3ZhlvcWrPQpv.dl8r3ZhlvcWrPQpv.dl8r3ZhlvcWrPQpv.cwn0sYWCblbHLv.pUUgSGBUWMJmQINK
+- VKgL2Ku3eLPlEKnW.mJq6LHhw5R4G8WkD.rwhTkhJoCD5VHWc0
+- ru.xscheats.acronis.base.engine.Engine
+- VKgL2Ku3eLPlEKnW.mJq6LHhw5R4G8WkD.rwhTkhJoCD5VHWc0
+- hhYo3VZcemRTrw2A.NhQ7DlxXYKPYmfGe.iJdo6VWDFdSwxY
+- gb90XKS0hToTvsnt.gb90XKS0hToTvsnt.gb90XKS0hToTvsnt.WG1ctdHjPN1CeeA6.uyvXzlbO2bGoZgGI
+- qmaks.cheatingessentials.mod.wrapper.Events
+- nUyvcq7FsUtPrC7o.nUyvcq7FsUtPrC7o.nUyvcq7FsUtPrC7o.SOdbAlzgoiZ1AOHD.NH2a2N9YcB28GUvY
+- cyInz4ZYxI44bCd6.cyInz4ZYxI44bCd6.cyInz4ZYxI44bCd6.VYenkKQDSPUWxW7L.Bpgg8I1I94qr4W6
+- cyInz4ZYxI44bCd6.cyInz4ZYxI44bCd6.cyInz4ZYxI44bCd6.ioaVyeb0hU6v3TiY.w5iwahoP23Y5RU7R
+- PgndbAkn17WQieF.PgndbAkn17WQieF.PgndbAkn17WQieF.zliOldb2TGSwFChm.Cr6YybM5qrjyMGiT
+- DCVynoTvQwmdpl.DCVynoTvQwmdpl.DCVynoTvQwmdpl.BPxoIzGtacH1LEJ.OUidljcU8ow3cMnx
+- tphack.TeleportHack.TeleportHack
+- ANt17uwqPbVTdVSf.gJhmVtDvDpxi2V6.ae29G292WYs5YSJ6
+- Uy9rT5hShoSX2Gj.cfL92tTwT9V3U0ze.GR0QTBm8BrPnVqFa
+- qyd4nhSIivCnhREG.SmoqB99ukSwLoGOQ.toNBQ6YPMXSOihE
+- Uy9rT5hShoSX2Gj.uVtgv9KTCuNNdKF.oocXX7YBmx0vX7DS
+- qyd4nhSIivCnhREG.FWB3S5imZO6YxzBc.IifZabyk01NEpGDV
+- BDNkq6u7y96Yx7sh.v0lbiLtm28IYeFj.wOr4mTAqpZAgHbYA
+- ru.kriperOok.OnlyFans
+- com.sun.proxy.4e$S$ebalom45
+- maxx.InitClass
+- com.sun.proxy.$Proxy1$1$41
+detectionwindows:
+- Extreme Injector
+- Extreme Injector v3.7.3 by master 131
+- Extreme Injector v3
+- Pr0ceSs Ha4ker
+- Spuffeed
+- Process Suspenders
+- PrOceSs Ha4ker
+- Next Scan
+- Undo Scan
+- Gamehacking Tool
+- Gamehacking Tool v3.1.1.0
+- Memory Scan Options
+- private 666666
+- HATEEVERYONE
+- Enable Speedhack
+- Cheat Happens CoSMOS 1.4.0.0 64-Bit
+- Process Hacker
+- ProcessHacker-master
+- processhacker-3.0.4905-bin.zip
+- Check for updates when Cheat Engine starts
+- Pause the game while scanning
+- CheatEngine
+- CEShare Initial Setup
+- Cosmos
+- Cosmos Minecraft
+- ProcessHacker
+- Inject
+- Manual Map
+- Clumsy
+- CheatEngine 7.3
+- CheatEngine 7.4
+- thelupa
+- CheatEngine 74
+- Монитор Ресурсов
+- CrySearch Memory
+screener:
+  enabled: true
+  clientID: 02a329b6070b1e3
+whitelist:
+- test
