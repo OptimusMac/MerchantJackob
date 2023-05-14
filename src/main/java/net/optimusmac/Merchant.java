@@ -13,6 +13,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 import java.util.Date;
 import java.util.Random;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
 public final class Merchant extends JavaPlugin {
@@ -60,7 +63,6 @@ public final class Merchant extends JavaPlugin {
     }
 
 
-
     public int getPricePerBounty() {
         return pricePerBounty;
     }
@@ -89,7 +91,7 @@ public final class Merchant extends JavaPlugin {
         return materialBounty;
     }
 
-    public Material MaterialBounty(){
+    public Material MaterialBounty() {
         return Material.getMaterial(getMaterialBounty()) == null ? Material.GOLD_INGOT : Material.getMaterial(getMaterialBounty());
     }
 
@@ -120,11 +122,11 @@ public final class Merchant extends JavaPlugin {
     }
 
 
-
     private void start() {
-        Bukkit.getScheduler().scheduleAsyncRepeatingTask(this, () -> {
+        ScheduledExecutorService executor = Executors.newSingleThreadScheduledExecutor();
+        executor.scheduleAtFixedRate(() -> {
             double randomValue = Math.random() * 100.0;
-            if (randomValue <= chanceSpawn && (merchant.isDead())) {
+            if (randomValue <= chanceSpawn && (merchant.isDead() || !merchant.isActive())) {
                 CompletableFuture.runAsync(() -> {
                     TeleportUtils teleportUtils = new TeleportUtils(merchant);
                     boolean isTeleport = teleportUtils.safeTeleport(worldName);
@@ -133,12 +135,12 @@ public final class Merchant extends JavaPlugin {
                     } else {
                         merchant.startDead();
                     }
+
                 });
             }
-
-
-        }, 20L, 20L);
+        }, 0, 1000, TimeUnit.MILLISECONDS);
     }
+
 
     public void setMerchant(CustomMerchant merchant) {
         this.merchant = merchant;
