@@ -1,0 +1,10 @@
+SettingsNPC:
+  allMessage: 'Внимание! На координатах X%s, Y%s, Z%s появился зажиточный Джейкоб!'
+  messageDepositMoney: '&7Вы получили %s монет за %s штук сокровищ'
+  chanceSpawnPerSecond: 0.2
+  onlyWorld: world
+  minutesFromDead: 20
+  itemBounty:
+    material: gold_ingot
+  givePerSecondBountyItem: 30
+  pricePerBounty: 1000 #this will be multiplied by the number of rewards every 10 seconds
