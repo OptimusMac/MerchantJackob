@@ -1,5 +1,6 @@
 package net.optimusmac.Utils.messages;
 
+import net.optimusmac.Merchant;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -14,6 +15,10 @@ public class Messages {
 
     public static String alternate(String t){
         return ChatColor.translateAlternateColorCodes('&', t);
+    }
+
+    public static void sendMessageDepositMoney(Player player, int money, int amount){
+        player.sendMessage(String.format(Merchant.getInstance().getMessageDepositMoney(), money, amount));
     }
 
 }

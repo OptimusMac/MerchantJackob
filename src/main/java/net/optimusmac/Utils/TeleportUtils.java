@@ -18,7 +18,7 @@ public class TeleportUtils {
 
     public TeleportUtils(CustomMerchant customMerchant) {
         this.npc = customMerchant.getNPC();
-        this.npc.setName(getName());
+        this.npc.setName(Merchant.getInstance().getNameNPC());
         this.customMerchant = customMerchant;
     }
 
@@ -48,8 +48,5 @@ public class TeleportUtils {
         return npc.spawn(location);
     }
 
-    private String getName() {
-        return IridiumColorAPI.process("<GRADIENT:ff0000>Зажиточный Джейкоб</GRADIENT:ffff00>");
-    }
 
 }
